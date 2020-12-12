@@ -14,17 +14,17 @@ function Navbar() {
                 </Link>
             </li>
             <li className="nav-item">
-                <Link to ="/" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+                <Link to ="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
                     About
                 </Link>
             </li>
             <li className="nav-item">
-                <Link to ="/" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+                <Link to ="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
                     Projects
                 </Link>
             </li>
             <li className="nav-item">
-                <Link to ="/" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                <Link to ="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
                     Contact
                 </Link>
             </li>
