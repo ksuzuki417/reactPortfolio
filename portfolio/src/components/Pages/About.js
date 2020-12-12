@@ -1,11 +1,9 @@
 import React from "react";
-import family from "/assets/Family2.png";
 
 function About() {
     return (
         <div>
             <h1>About Me</h1>
-            <img src={family} alt="Family" />;
             <div className="col-md-9">Welcome to my portfolio! My name is Keita Suzuki. I'm a student of Coding Bootcamp by UTSA. I'm offically a Fullstack Web Developer! 
                 I've been working in hospitality indusrty for my career but with this pandemic happeninig, unfortunately, I had make a career shift. 
                 Classmates have been very supportive and one thing I truly believe in now is "TEAMWORK". It is amazing how much we can accomplish as a team.
