@@ -1,11 +1,11 @@
 import React from "react";
 
-function Footer() {
+function About() {
     return (
         <div>
-
+            <h1>About Page</h1>
         </div>
     );
 }
 
-export default Footer;
+export default About;
