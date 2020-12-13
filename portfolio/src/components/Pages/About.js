@@ -1,10 +1,11 @@
 import React from "react";
+import "../style.css";
 
 function About() {
     return (
         <div>
             <h1>About Me</h1>
-            <img className="img-responsive" src="/images/Family2.png" alt="Family"></img>
+            <img className="img-responsive" src="./images/Family2.png" alt="Family" style={{width: "25%", margin: "20px", borderRadius: "8px"}}></img>
             <div className="col-md-9">Welcome to my portfolio! My name is Keita Suzuki. I'm a student of Coding Bootcamp by UTSA. I'm offically a Fullstack Web Developer! 
                 I've been working in hospitality indusrty for my career but with this pandemic happeninig, unfortunately, I had make a career shift. 
                 Classmates have been very supportive and one thing I truly believe in now is "TEAMWORK". It is amazing how much we can accomplish as a team.

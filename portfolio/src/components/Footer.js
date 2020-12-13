@@ -2,9 +2,10 @@ import React from "react";
 
 function Footer() {
     return (
-        <div>
+        <footer style={{position: "fixed", left: "40%", bottom: "0", textAlign: "center"}} className="footer">
+            <span className="text-dark"> &#169; Copyright 2020 Keita Suzuki</span>
 
-        </div>
+        </footer>
     );
 }
 
