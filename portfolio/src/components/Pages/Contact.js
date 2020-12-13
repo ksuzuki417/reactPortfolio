@@ -29,7 +29,7 @@ class Form extends Component {
     render() {
         return (
             <div>
-                <form className="form">
+                <form className="container-sm" style={{marginTop: "70px"}}>
                     <div className="form-group">
                     <input className="form-control"
                         value={this.state.name}

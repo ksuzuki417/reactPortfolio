@@ -5,9 +5,10 @@ function Projects() {
     return (
         <div>
             <h1>Projects Page</h1>
-            <div className="card" style={{width: "18rem;"}}>
+            <div className="container">
+            <div className="card">
                 <div className="card-body">
-                <img className="card-img-top" src="./images/WeldingWorklist.gif" alt="Welders Organizer" style={{width: "30%"}}></img>
+                <img className="card-img-top" src="./images/WeldingWorklist.gif" alt="Welders Organizer" style={{width: "50%"}}></img>
                     <h5 className="card-title">Welder's Organizer</h5>
                     <h6 className="card-subtitle mb-2 text-muted">Group Project</h6>
                     <p className="card-text">Technologies Used</p>
@@ -16,7 +17,7 @@ function Projects() {
                 </div>
                 <div className="card">
                     <div className="card-body">
-                    <img className="card-img-top" src="./images/project2.gif" alt="Who Dis?" style={{width: "30%"}}></img>
+                    <img className="card-img-top" src="./images/project2.gif" alt="Who Dis?" style={{width: "50%"}}></img>
                         <h5 className="card-title">Who Dis?</h5>
                         <h6 className="card-subtitle mb-2 text-muted">Group Project</h6>
                         <p className="card-text">Technologies Used</p>
@@ -26,7 +27,7 @@ function Projects() {
                 </div>
                 <div className="card">
                     <div className="card-body">
-                    <img className="card-img-top" src="./images/ems.gif" alt="EMS" style={{width: "30%"}}></img>
+                    <img className="card-img-top" src="./images/ems.gif" alt="EMS" style={{width: "50%"}}></img>
                         <h5 className="card-title">Employee Management System</h5>
                         <h6 className="card-subtitle mb-2 text-muted">Self Project</h6>
                         <p className="card-text">Command Line Application</p>
@@ -35,7 +36,7 @@ function Projects() {
                 </div>
                 <div className="card">
                     <div className="card-body">
-                    <img className="card-img-top" src="./images/noteTakerDemo.gif" alt="Note Taker" style={{width: "30%"}}></img>
+                    <img className="card-img-top" src="./images/noteTakerDemo.gif" alt="Note Taker" style={{width: "50%"}}></img>
                         <h5 className="card-title">Note Taker</h5>
                         <h6 className="card-subtitle mb-2 text-muted">Self Project</h6>
                         <p className="card-text">Technologies Used</p>
@@ -45,7 +46,7 @@ function Projects() {
                 </div>
                 <div className="card">
                     <div className="card-body">
-                    <img className="card-img-top" src="./images/workDayScheduler.png" alt="Work Day Scheduler" style={{width: "30%"}}></img>
+                    <img className="card-img-top" src="./images/workDayScheduler.png" alt="Work Day Scheduler" style={{width: "50%"}}></img>
                         <h5 className="card-title">Work Day Scheduler</h5>
                         <h6 className="card-subtitle mb-2 text-muted">Self Project</h6>
                         <p className="card-text">Technologies Used</p>
@@ -55,7 +56,7 @@ function Projects() {
                 </div>
                 <div className="card">
                     <div className="card-body">
-                    <img className="card-img-top" src="./images/templateEngineDemo.gif" alt="Employee Summary" style={{width: "30%"}}></img>
+                    <img className="card-img-top" src="./images/templateEngineDemo.gif" alt="Employee Summary" style={{width: "50%"}}></img>
                         <h5 className="card-title">Employee Summary</h5>
                         <h6 className="card-subtitle mb-2 text-muted">Self Project</h6>
                         <p className="card-text">Technologies Used</p>
@@ -63,6 +64,7 @@ function Projects() {
                         <a href="https://github.com/ksuzuki417/templateEngine" className="card-link">Repository</a>
                     </div>
                 </div>
+            </div>
             </div>
 
         </div>

@@ -2,12 +2,18 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
+const styles = {
+    nav: {
+        background: "white",
+    }
+};
+
 function Navbar() {
 
     const location = useLocation();
 
     return(
-        <ul className="nav nav-tabs">
+        <ul className="nav nav-tabs" style={styles.nav}>
             <li className="nav-item">
                 <Link to ="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                     Home
